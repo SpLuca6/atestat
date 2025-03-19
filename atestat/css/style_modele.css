@@ -1,0 +1,94 @@
+/* Structura principală */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Antet (nav) */
+header {
+    background: #003399;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Titluri */
+h1 {
+    text-align: center;
+    color: #002266;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Secțiunea modele */
+.model {
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.model:hover {
+    transform: translateY(-10px);
+}
+
+.model img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Butonul de contact */
+.btn {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background: #003399;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #001f66;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #003399;
+    color: white;
+    padding: 10px 0;
+}
+
+.author {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ddd;
+}
